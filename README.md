@@ -1,12 +1,14 @@
 # Title-Info
-> This is a template for react based projects with linters, package.json and readme setup.
+> Practice of react redux basics.
 
 
 # ScreenShots
-![](pic.png)
+<!-- ![](pic.png) -->
+{On going}
 
 ## Built With
 - React
+- React Redux
 
 ## Live Demo
 For the link to the live demo, [Click here]
@@ -14,7 +16,7 @@ For the link to the live demo, [Click here]
 ## Getting Started
 To get a local copy up and running you just need to follow the following steps;
 - Clone this repository with
-git clone https://github.com/asifmuntasir/latest-react-template.git using your terminal or command line.
+git clone https://github.com/asifmuntasir/redux-basics.git using your terminal or command line.
 - run code `.` to open it in vscode
 - run `npm install` in terminal
 - run `npm run build` in terminal
