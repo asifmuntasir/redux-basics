@@ -3,8 +3,7 @@
 
 
 # ScreenShots
-<!-- ![](pic.png) -->
-{On going}
+![](redux-counter-app.png)
 
 ## Built With
 - React
@@ -41,7 +40,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Programming Hero Team
+- For Project Need
 
 ## 📝 License
 
