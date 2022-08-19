@@ -1,4 +1,5 @@
 import CounterPage from "./component/CounterPage";
+import User from "./component/User";
 
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
       <div className="row d-flex justify-content-center">
         <div className="col-md-6">
           <CounterPage />
+          <User />
         </div>
       </div>
     </div>

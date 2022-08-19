@@ -1,18 +1,27 @@
 import {
-    createStore, combineReducers, applyMiddleware, compose,
+    createStore, combineReducers, applyMiddleware
 } from 'redux';
 
-import { CounterReducer } from './Reducers/CounterReducer';
+import { composeWithDevTools } from 'redux-devtools-extension';
+
+import thunk from 'redux-thunk';
+import logger from 'react-redux'
+
+import {
+    CounterReducer,
+    UserReducer
+} from './Reducers/CounterReducer';
 
 // import thunk from 'redux-thunk';
 
 
 const rootReducer = combineReducers({
-    CounterReducer
+    CounterReducer,
+    UserReducer
 });
 
 const store = createStore(
     rootReducer,
-    // compose(applyMiddleware(thunk))
+    composeWithDevTools(applyMiddleware(thunk, logger))
 );
 export default store;
